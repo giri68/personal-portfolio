@@ -1,0 +1,73 @@
+body {
+  font-family: serif;
+  font-size: 20px;
+  color: #444;
+  margin: 50px;
+  text-align: center;
+}
+
+.hero {
+  background-image: url(../images/golden-gate-bridge.jpg);
+  background-color: #BAE2BA;
+  min-height: 300px;
+  width: 100%;
+  padding-top: 120px;
+}
+
+.about-me {
+  background-color: #9EF3B7;
+  min-height: 300px;
+  width: 100%;
+  padding-top: 90px;
+}
+
+.about {
+  margin-right: 20px;
+  margin-left: 20PX;
+  text-align: justify;
+}
+ul {
+  display: flex;
+  list-style: none;
+  text-align: right;
+  background-color: #A1A1DF;
+ 
+}
+
+main-nav-div {
+  right: 10px;
+  position: fixed;
+  text-align: right;
+  
+}
+
+ul.main-nav {
+  
+}
+
+ul.contact-nav {
+  text-align: center;
+}
+
+li {
+  padding: 10px;
+  
+}
+
+.contact-li {
+  font-size: 25px;
+  text-align: center;
+  margin-left: 250px;
+  color: #444;
+}
+
+.contact-links {
+  text-align: center;
+}
+
+.main-nav {
+  
+}
+
+
+
