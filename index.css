@@ -2,12 +2,16 @@ body {
   font-family: serif;
   font-size: 20px;
   color: #444;
-  margin: 50px;
-  text-align: center;
+  margin: 20px;
+  /* margin: 50px;*/
+  /* text-align: center;  */
 }
 
 .hero {
-  background-image: url(../images/golden-gate-bridge.jpg);
+  background-image: url("images/san-franc.jpg");
+  
+  background-size: 1200px 500px;
+  background-repeat: no-repeat;
   background-color: #BAE2BA;
   min-height: 300px;
   width: 100%;
@@ -26,32 +30,18 @@ body {
   margin-left: 20PX;
   text-align: justify;
 }
-ul {
+/* ul {
   display: flex;
   list-style: none;
   text-align: right;
   background-color: #A1A1DF;
  
-}
+} */
 
-main-nav-div {
-  right: 10px;
-  position: fixed;
-  text-align: right;
-  
-}
 
-ul.main-nav {
-  
-}
 
 ul.contact-nav {
   text-align: center;
-}
-
-li {
-  padding: 10px;
-  
 }
 
 .contact-li {
@@ -65,9 +55,52 @@ li {
   text-align: center;
 }
 
-.main-nav {
+.contact-icon {
+  padding: 10px;
+}
+
+.main-nav-div {
+  max-width: 100vw;
+  background-color:lightblue; 
+}
+
+.main-nav-nav {
+  margin: 0;
   
 }
+.main-nav {
+  display: flex;
+  flex-direction: row;
+  background-color: #A1A1DF;
+  position: fixed;
+  width: 100%;
+ 
+  margin: 5px;
+  /* right: -20px; */
+  /* position: fixed;  */
+  /* top: 0;
+  z-index: 99;*/
+  /* justify-content: flex-end; */
+}
+li {
+  padding: 10px;
+  list-style: none;
+}
+
+.main-nav-name {
+  /* margin-right: 55vw; */
+  order: 1;
+  /* align-items: left; */
+   flex-basis: 80vw;
+}
+
+.main-nav-link {
+  order: 2;
+  flex-basis: 200px;
+}
+
+
+
 
 
 
