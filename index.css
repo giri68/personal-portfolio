@@ -15,14 +15,21 @@ body {
   text-shadow: 0 0 1px #343434;
   height: 100%;
   margin: 0;
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/wood.jpg) scroll;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), scroll;
   background-size: cover;
   background-attachment: fixed;
   overflow-x: hidden;
   cursor: default;
   display: block;
-
 }
+
+#about-description {
+  margin-left: -29px;
+  width: 98vw;
+  background-color: white;
+}
+
+
 @media only screen and (max-width: 569px){
 
 .header-wrapper {
@@ -52,13 +59,14 @@ body {
 
 #profile-pic {
     margin-left: 1px;
+
 }
 }
 
 #profile-pic {
   padding-top: 1em;
   margin-left: 3vw;
-  margin-top: 128px; 
+  margin-top: -10px; 
   width: auto;
   /* //max-width: 150px; */
   height: auto;
@@ -66,6 +74,8 @@ body {
   border-radius: 50%;
   /* display: inline; */
   z-index: 2;
+  float: left;
+  margin-right: 30px;
 }
 main {
   display: block;
@@ -79,6 +89,7 @@ div {
 
 .projects-wrap {
   width: 100%;
+  margin-top: 90px;
 }
 
 .projects-section {
@@ -95,7 +106,7 @@ div {
   margin-top: 0;
   margin-bottom: 1.2em;
   text-align: left;
-  margin-left: -4vw;
+  margin-left: -7vw;
 }
 
 
@@ -129,6 +140,11 @@ div {
 .project-card-img {
   width: 100%;
   text-align: center;
+  margin-top: -180px;
+}
+
+#project-card-img-project1 {
+  margin-top: -230px;
 }
 
 @media only screen and (min-width: 900px)
@@ -190,13 +206,13 @@ img {
   display: flex;
 }
 a:link, a:visited {
-  color: #99999A;
+  color: #EEEEF5;
   text-decoration: none;
 }
 .btn-light {
-  color: #083045;
+  color: #ffffff;
   font-size: 1em;
-  background: #ffffff;
+  background: #083045;
   padding: 0.25em 0.525em;
   text-decoration: none;
   margin-right: 0.75em;
@@ -227,7 +243,7 @@ margin: 0;
   top: 0;
   width: 100vw;
   z-index: 100;
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(0, 0, 0, -0.3);
 }
 
 ul {
@@ -281,19 +297,27 @@ section {
 .about h1 {
   margin-bottom: 20px;
   padding-left: 20px;
+  
 }
+
+#about-h1 {
+  margin-left: 90px;
+  margin-top: -200px;
+}
+
 h1 {
   font-weight: 100;
   margin: 110px;
   margin-bottom: -20px;
   margin-top: -200px;
   font-size: 2em;
+  
 }
 #about p {
   background-color: rgba(0, 0, 0, 0.3);
   padding: 44px;
   margin-top: 60px;
-  height: 250px;
+  height: 280px;
 
 }
 p{
@@ -368,6 +392,7 @@ footer {
 .fa {
   opacity: 0.4;
   transition: opacity 0.25s linear, text-shadow 0.25s linear;
+  
 }
 @media (max-width: 780px){
 .icon_text {
@@ -406,7 +431,7 @@ footer {
   top: -580px; 
   font-size: 50px; 
   font-family: 'Anton', sans-serif;
-  color: #7B9C79;
+  color: #e3f1ef;
 }
 
 #banner {
@@ -478,3 +503,5 @@ footer {
       text-align: center; 
       font-family: 'Pacifico', cursive;
   }
+
+  
