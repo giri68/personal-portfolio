@@ -31,17 +31,13 @@ body {
   overflow: auto;
   display: flex;
   align-items: center;
-  
 }
 .about-left {
   flex: 1;
-  
-  
 }
 .about-right {
   flex: 2;
   padding-right: 120px;
-  
 }
 @media only screen and (max-width: 900px){
   #about-description {
@@ -49,14 +45,11 @@ body {
   }
   .about-left {
     width: 100%;
-    
-    
   }
   .about-right {
     width: 100%;
     text-align: center;
     padding: 0px 50px 50px 50px;
-
   }
   #profile-pic {
     float: none !important;
@@ -92,36 +85,20 @@ body {
   justify-content: space-between;
   margin-top: 1px;
 }
-/* @media only screen and (max-width: 1024px){
 
-#profile-pic {
-    margin-left: 1px;
-
-}
-} */
 
 #profile-pic {
   padding: 40px;
-  /* margin-left: auto; */
   margin-right: 40px;
-  /* margin-top: -10px;  */
   width: 300px;
-  /* //max-width: 150px; */
   height: 300px;
-  /* max-height: 100px; */
   border-radius: 50%;
-  /* display: inline; */
   z-index: 2;
   display: block;
   float: right;
+}
 
-}
-main {
-  display: block;
-}
-div {
-  display: block;
-}
+
 #main-container {
   background: #807070;
   margin-left: 10px;
@@ -287,10 +264,8 @@ margin: 0;
   background-color: rgba(0, 0, 0, -0.3);
 }
 
-ul {
-  display: block;
-}
-@media (max-width: 780px){
+
+@media only screen and (max-width: 780px){
 #nav_container li {
     font-size: 16px;
     padding-left: 0;
@@ -307,7 +282,7 @@ a {
   color: inherit;
   background-color: transparent;
 }
-@media (max-width: 780px){
+@media only screen and (max-width: 780px){
 #intro {
     position: relative;
     font-family: 'Lato', sans-serif;
@@ -352,19 +327,10 @@ h1 {
   margin-bottom: -20px;
   margin-top: -200px;
   font-size: 2em;
-  
 }
-#about p {
-  /* background-color: rgba(0, 0, 0, 0.3); */
-  /* padding: 44px; */
-  /* margin-top: 60px; */
-  /* height: 280px; */
 
-}
-p{
-  display: block;
-}
-@media (max-width: 780px){
+
+@media only screen and (max-width: 780px){
 #about {
     position: relative;
     font-family: 'Lato', sans-serif;
@@ -383,7 +349,7 @@ p{
   font-weight: 400;
 
 }
-@media (max-width: 780px){
+@media only screen and (max-width: 780px){
 #contact-me, #contact-footer {
     font-size: 20px;
     margin-top: 40px;
@@ -397,26 +363,26 @@ p{
   padding: 150px;
 }
 
-
-
 footer {
   max-width: 800px;
   margin: 0 auto;
   display: block;
 }
-@media (max-width: 780px){
+@media only screen and (max-width: 780px){
 .icon_border {
     height: 25px;
     width: 7%;
     display: inline-block;
 }
 }
+
 .icon_border {
   height: 25px;
   width: 7%;
   display: inline-block;
 }
-@media (max-width: 780px){
+
+@media only screen and (max-width: 780px){
 #contact-me a, #contact-footer a {
     display: block;
 }
@@ -424,7 +390,7 @@ footer {
 #contact-footer a {
   padding-left: 20px;
 }
-@media (max-width: 780px){
+@media only screen and (max-width: 780px){
 .fa {
     opacity: 0.4;
     transition: opacity 0.25s linear, text-shadow 0.25s linear;
@@ -435,7 +401,7 @@ footer {
   transition: opacity 0.25s linear, text-shadow 0.25s linear;
   
 }
-@media (max-width: 780px){
+@media only screen and (max-width: 780px){
 .icon_text {
     font-size: 16px;
     text-align: center;
