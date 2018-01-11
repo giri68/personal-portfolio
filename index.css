@@ -27,7 +27,7 @@ body {
   margin-left: auto;
   margin-right: auto;
   width: 100%;
-  background-color: #CBCBD1;
+  background-color: #8f8f94;
   overflow: auto;
   display: flex;
   align-items: center;
@@ -56,9 +56,7 @@ body {
     margin-left: auto;
     margin-right: auto !important;
   }
-  .project-card-img img {
-    margin-top: 170px;
-}
+  
 }
 @media only screen and (max-width: 569px){
 
@@ -111,11 +109,12 @@ body {
 }
 
 .projects-section {
-  max-width: 1024px;
+  /* max-width: 1024px; */
   padding: 2em;
   height: 100%;
   margin-left: auto;
   margin-right: auto;
+  
 }
 
 .section-title {
@@ -146,24 +145,27 @@ body {
 }
 }
 .project-card {
-  padding-top: 2em;
-  padding-bottom: 8em;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 @media only screen and (min-width: 900px)
 {
 .project-card-img {
     width: 45%;
+    padding-top: 30px;
 }
 }
+
 .project-card-img {
   width: 100%;
   text-align: center;
-  margin-top: -180px;
+  /* margin-top: -180px; */
+  padding: 30px;
 }
 
-#project-card-img-project1 {
+/* #project-card-img-project1 {
   margin-top: -230px;
-}
+} */
 
 @media only screen and (min-width: 900px)
 {
@@ -438,7 +440,7 @@ footer {
   top: -580px; 
   font-size: 50px; 
   font-family: 'Anton', sans-serif;
-  color: #e3f1ef;
+  color: #1e1f21;
 }
 
 #banner {
